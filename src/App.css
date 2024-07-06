@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+.custom-carousel {
+
+margin:30px;
+}
+
+.custom-carousel-item {
+  max-width: 100%;
+  max-height: 500px; 
+}
+
+.category-image {
+  object-fit: cover;
+  width: 200px;
+  height: 200px; 
+  border-radius: 50%; 
+  transition: all 0.3s ease;
+}
+.category-image:hover {
+  background-color: rgba(128, 128, 128, 0.5); 
+  filter: brightness(0.7); 
+  cursor: pointer; 
+}
+.category-title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Login.css */
+.login-form {
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.8); 
+  padding: 20px;
+}
+
